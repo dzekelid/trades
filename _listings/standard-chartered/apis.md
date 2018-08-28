@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Trades
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
@@ -121,6 +121,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-openapi.md
+- name: Standard Chartered - Retrieve trade finance transaction status for specific
+    transaction reference Id
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get
+  description: Retrieve trade finance transaction status for specific transaction
+    reference Id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-openapi.md
+- name: Standard Chartered - Retrieve all trade finance transaction status for the
+    current date (localised to tz)
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridtransactions-get
+  description: Retrieve all trade finance transaction status for the current date
+    (localised to tz)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactions-get-openapi.md
+- name: Standard Chartered - Retrieve trade finance limit details
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridlimits-get
+  description: Retrieve trade finance limit details
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridlimits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridlimits-get-openapi.md
+- name: Standard Chartered - Retrieve trade finance customer profile
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridprofile-get
+  description: Retrieve trade finance customer profile
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridprofile-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridprofile-get-openapi.md
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility

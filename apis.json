@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Trades",
+	"description": "This is a repository of trades APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/trades.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://trades.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "International Trade Administration",
+			"x-api-slug": "international-trade-administration",
+			"description": "The International Trade Administration (ITA) strengthens the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements. ITA works to improve the global busi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg",
+			"humanURL": "http://trade.gov",
+			"baseURL": "https://api.trade.gov//",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/international-trade-administration/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Standard Chartered",
+			"x-api-slug": "standard-chartered",
+			"description": "Standard Chartered PLC is a British multinational banking and financial services company headquartered in London, England. It operates a network of more than 1,200 branches and outlets (including subsidiaries, associates and joint ventures) across more than 70 countries and employs around 87,000 people. It is a universal bank with operations in consumer, corporate and institutional banking, and treasury services. Despite its UK base, it does not conduct retail banking in the UK, and around 90% of its profits come from Asia, Africa and the Middle East.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png",
+			"humanURL": "https://developer.sc.com",
+			"baseURL": "https://developer.sc.com//",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cryptagio",
+			"x-api-slug": "cryptagio",
+			"description": "Cryptagio is a global crypto exchange, providing a simple, fast and secure way to buy, sell or trade the world&rsquo;s most eminent digital assets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28851-api-cryptagio-com.jpg",
+			"humanURL": "http://www.cryptagio.com",
+			"baseURL": "https:////",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/cryptagio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChainGenie",
+			"x-api-slug": "chaingenie",
+			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
+			"humanURL": "http://chaingenie.com",
+			"baseURL": "https://api.chaingenie.com//api/v1",
+			"tags": "Trades",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/chaingenie/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Trades",
+	"include": [
+		{
+			"name": "International Trade Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/international-trade-administration/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Standard Chartered",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/standard-chartered/apis.yaml"
+		},
+		{
+			"name": "Cryptagio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/cryptagio/apis.yaml"
+		},
+		{
+			"name": "ChainGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/trades/master/_listings/chaingenie/apis.yaml"
+		}
+	]
+}
